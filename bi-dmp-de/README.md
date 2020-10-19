@@ -28,7 +28,11 @@ Data format with tab separated is : [object_id_hash] [array of category ids] [ar
 Assume that object_id are unique.
 Each element in category count array represents for number of time the corresponding category has been appeared.
 
-For example: 2131526740769705        [6,11144,11146,15276,15932,15935,15978,16017]   [55,55,1,3,3,1,2,2]
+For example: 
+
+| object_id | category_ids | category_counts|
+|2131526740769705 | [6,11144,11146,15276,15932,15935,15978,16017] | [55,55,1,3,3,1,2,2] |
+
 Category Id *6* appear *55* times for object id *2131526740769705* in the sample.
 
 1. What is the most popular category for this sample ?
@@ -54,8 +58,8 @@ If the **object_id** satisfied the pre-defined rules, new category ids will be a
 
 For example:
 
-- Rule Id 6969 is combined of category ids ***6 AND 9 OR 69 OR 96 ***
-- Rule Id 16911 is combined of *** (NOT 16) AND 9 OR 11 ***
+- Rule Id 6969 is combined of category ids **6 AND 9 OR 69 OR 96 **
+- Rule Id 16911 is combined of ** (NOT 16) AND 9 OR 11 **
 
 Assume that: 
 - Supported operators are **AND | OR | NOT** operator.
@@ -81,6 +85,3 @@ Assume that:
 
 1. Design a processing diagram.
 2. List the above design Pros/Cons. 
-
- 
-  
