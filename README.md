@@ -1,2 +1,1 @@
-# coccoc_hometest
-Coccoc home-assignment.
+# Repository storing CocCoc home-test assignments
