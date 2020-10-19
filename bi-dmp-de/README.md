@@ -60,7 +60,7 @@ If the **object_id** satisfied the pre-defined rules, new category ids will be a
 For example:
 
 - Rule Id *6969* is combined of category ids **6 AND 9 OR 69 OR 96**
-- Rule Id 16911 is combined of **(NOT 16) AND 9 OR 11**
+- Rule Id *16911* is combined of **(NOT 16) AND 9 OR 11**
 
 Assume that: 
 - Supported operators are **AND | OR | NOT** operator.
@@ -70,7 +70,7 @@ Assume that:
 2. If we have *n* **object_id**, *k* **category_id** and *c* **rule_id**. 
 Calculate the complexity for this.
 
-## V. Real Issues
+## V. Categories of objects are updated in real-time
 Extended from **Part IV**, the clients need to know which **object_id** satisfying some rules id in real-time or 
 near-real-time.
 
