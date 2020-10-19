@@ -1,4 +1,4 @@
-# Business Intelligence Department - SE or DE assignment
+# Business Intelligence Department - SE/DE assignment
 
 > The assignment has mostly heuristic questions.
 
