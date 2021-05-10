@@ -42,7 +42,8 @@ Category Id *6* appear *55* times for object id *2131526740769705* in the sample
 
 ## II. Data analysing
 Using the same data sample as the above.
-Each time an Object Id has a unique category Id, it is counted as 1 for the category Id. 
+
+Each time an Object Id has a category in its Set<category_id> , it is counted as 1 for the category Id. 
 (category-frequency ignores the counter)
  
 1. Calculate the frequency for each category in the sample.
