@@ -36,13 +36,14 @@ For example:
 
 Category Id *6* appear *55* times for object id *2131526740769705* in the sample.
 
-1. What is the most popular category for this sample ?
-2. Which category has the largest appeared times ?
+1. What is the most popular category for this sample ? (highest frequency - term is defined in section II) 
+2. Which category has the largest appeared times ? (the category having the total largest counter in the sample data)
 3. Is there any idea how to represent/visualize the sample data for analysing ?
 
 ## II. Data analysing
 Using the same data sample as the above.
 Each time an Object Id has a unique category Id, it is counted as 1 for the category Id. 
+(category-frequency ignores the counter)
  
 1. Calculate the frequency for each category in the sample.
 2. From the calculation above, what do you think about the data sample ?
